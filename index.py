@@ -14,9 +14,9 @@ bot = Bot(TOKEN)
 
 
 def welcome(update, context) -> None:
-    update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome to SB Movies.\n"
-                              f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it.")
-    update.message.reply_text("👇 Enter Movie Name 👇")
+    update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome fools to Chennle filter bot.\n"
+                              f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it fools.")
+    update.message.reply_text("👇 Enter Movie Name here you fool 👇")
 
 
 def find_movie(update, context):
